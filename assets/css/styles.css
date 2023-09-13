@@ -1,0 +1,293 @@
+/* === INÍCIO - CSS RESET === */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: var(--fontFamily);
+    color: white;
+    background-color: var(--color2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--color3);
+    text-decoration: none;
+}
+
+/* === FIM - CSS RESET === */
+
+:root {
+    --color1: #280f36;
+    --color2: #632a6e;
+    --color3: #c86b98;
+    --color4: #f09f9c;
+    --color5: #ffc1a0;
+    --color6: #fe9c7f;
+    --fontFamily: "Noto Sans", sans-serif;
+    --fontFamily2: "Oswald", sans-serif;
+}
+
+body {
+    padding-top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--fontFamily2);
+    font-weight: 600;
+}
+
+h1 {
+    color: var(--color1);
+}
+
+h2 {
+    color: var(--color2);
+}
+
+h3 {
+    color: var(--color3);
+}
+
+h4 {
+    color: var(--color4);
+}
+
+h5 {
+    color: var(--color5);
+}
+
+h6 {
+    color: var(--color6);
+}
+
+p {
+    line-height: 1.7rem;
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--color1);
+    /* color: white; */
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logodiv {
+    float: left;
+    height: 100%;
+    padding-top: 0.2rem;
+    width: 100px;
+}
+
+#logo {
+    width: 180px;
+    margin-left: 1rem;
+}
+
+#menu {
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    margin-top: 0px;
+    font-size: 290%;
+
+}
+
+#menu a {
+    color: white;
+    font-weight: 200;
+    font-family: var(--fontFamily2);
+
+}
+
+.nav {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+.nav:hover {
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem 1rem 0;
+    width: 100%;
+}
+
+#apresentacao {
+    margin-top: 100px;
+}
+
+#livros {
+    padding: 0;
+    float: left;
+    width: 40%;
+}
+
+.quemsoueu {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    text-align: justify;
+
+}
+
+#veja {
+    margin-top: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    #menu {
+        display: none;
+    }
+
+}
+
+
+
+.paragiframe {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+#eduquali {
+    text-align: center;
+}
+
+#boxeducacao {
+    text-align: center;
+    padding-top: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin: 1rem;
+    max-width: 250px;
+    padding: 1rem;
+}
+
+
+.txtcard {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 14px;
+    /* overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; */
+
+}
+
+.iconecard {
+    text-align: center;
+    height: auto;
+    max-width: 30%;
+}
+
+#contato {
+    padding: 0;
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+
+#paragpropostas {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+#boxpropostas h2,
+#paragpropostas {
+    text-align: center;
+}
+
+
+ol {
+    margin-top: 2rem;
+}
+
+ol li {
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+ol li strong {
+    display: block;
+}
+
+#fimpropostas {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+footer {
+    padding: 20px 20px 20px 20px;
+    background-color: var(--color2);
+    color: var(--color3);
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#elasnatech {
+    /* font-style: italic; */
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+
+/* =================================================================== */

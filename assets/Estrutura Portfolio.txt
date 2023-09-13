@@ -1,0 +1,52 @@
+Estrututa - Portfólio
+
+Camila Carvalho ------ Projetos - Sobre
+
+Apresentação
+
+Olá, me chamo Camila Carvalho e sou escritora de ficção e não ficção, formada em Administração de Empresas com MBA em Finanças e Controladoria, além de certificada PMP pelo Project Management Institute.  
+Também sou instrutora de cursos na Udemy e agora, estou me aventurando pelo mundo da programação por meio do curso Elas Na Tech. 
+
+Veja alguns dos meus projetos a seguir.
+
+
+
+Texto / Imagem
+
+----------------
+
+Título do Projeto - Currículo
+Descrição
+Imagem
+
+Ver site / Github / Download (<a href="/images/myw3schoolsimage.jpg" download>)
+----------------
+
+Título do Projeto - Cardápio
+Descrição
+Imagem
+
+Ver site / Github
+----------------
+
+Título do Projeto  - ODS
+Descrição
+Imagem
+
+Ver site / Github
+----------------
+
+Formulário de Contato
+
+
+
+Você também pode me encontrar em:
+Instagram
+Linkedin
+Github
+Udemy
+Amazon
+--------
+
+
+Projeto ElasNaTech
