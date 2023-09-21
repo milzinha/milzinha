@@ -30,8 +30,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 
 a {
@@ -78,10 +78,15 @@ main {
 }
 
 .btn {
-    /* background: none; */
     border: none;
     cursor: pointer;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 1.2rem;
+    }
 }
 
 .btn:hover {
@@ -106,35 +111,6 @@ main {
 .btn-links a {
     color: var(--color6);
 }
-
-@media (max-width: 768px) {
-    .btn {
-        font-size: 1.2rem;
-    }
-}
-
-/* Responsividade */
-@media (min-width: 1710px) {
-    #livros {
-
-        padding-left: 20px;
-        min-height: auto;
-    }
-}
-
-@media (max-width: 1256px) {
-    #menu {
-        display: none;
-    }
-
-
-    #livros {
-
-        padding-left: 20px;
-    }
-
-}
-
 
 /* Classes auxiliares */
 
@@ -170,8 +146,8 @@ header {
     /* color: white; */
     height: 110px;
     width: 100%;
-    position: fixed;
-    z-index: 10;
+    /* position: fixed;
+    z-index: 10; */
     top: 0;
 }
 
@@ -189,9 +165,10 @@ header:after {
 }
 
 #logo {
-    width: 180px;
+    width: 250px;
     margin-left: 1rem;
 }
+
 
 /*---------- MENU ------------*/
 
@@ -214,6 +191,13 @@ header:after {
 #menu a:hover {
     color: var(--color2);
 
+}
+
+
+@media (max-width: 1256px) {
+    #menu {
+        display: none;
+    }
 }
 
 .nav {
@@ -245,8 +229,26 @@ header:after {
 
 }
 
+
+@media (min-width: 1710px) {
+    #livros {
+
+        padding-left: 20px;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 1256px) {
+
+    #livros {
+
+        padding-left: 20px;
+    }
+
+}
+
 #apresentacao {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
